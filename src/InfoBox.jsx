@@ -106,9 +106,9 @@ import "./InfoBox.css";
 
 export default function InfoBox({ info }) {
   const HOT_URL =
-    "src/assets/hot.jpg";
+    "/hot.jpg";
   const COLD_URL =
-    "src/assets/cold.jpg";
+    "/cold.webp";
   const RAIN_URL =
     "https://images.unsplash.com/photo-1501696461415-6bd6660c6742";
 

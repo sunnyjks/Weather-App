@@ -1,0 +1,78 @@
+.InfoBox{
+    text-align: center;
+     
+    
+}
+
+.cardContainer{
+    display:flex;
+    justify-content:center;
+    
+    
+}
+
+
+.weatherCard {
+  width: 420px;        /* 🔥 card bada */
+}
+
+.weatherCard img {
+  object-fit: cover;
+}
+
+.card-below{
+   background:  linear-gradient(0deg,rgb(179, 229, 230) 0%, rgb(241, 84, 57) 100%);
+   
+}
+
+.weather-info{
+    display: flex;
+  flex-direction: column;   /* upar se niche order */
+  gap: 6px;                 /* har line ke beech space */
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* chatgpt */
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.weather-info div {
+  display: grid;
+  grid-template-columns: 26px 1fr auto;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  font-size: 22px;
+  color: #1e40af;
+}
+
+.weather-info span:nth-child(2) {
+  text-align: left;
+  font-weight: 500;
+}
+
+.weather-info span:nth-child(3) {
+  text-align: right;
+  font-weight: 600;
+}
+
+
